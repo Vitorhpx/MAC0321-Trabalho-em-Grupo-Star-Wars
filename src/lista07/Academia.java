@@ -9,6 +9,7 @@ public class Academia {
 	private String ordem; //Jedi ou Sith
 	private List<Ser> alunos = new ArrayList<Ser>();
 	private Conselho conselho;
+	private int gay;
 	public String getNome() {
 		return nome;
 	}
