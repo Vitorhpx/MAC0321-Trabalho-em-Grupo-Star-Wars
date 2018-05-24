@@ -10,6 +10,6 @@ public class Batalha {
 			habilidade1 = lutador1.escolherAcao();
 			habilidade2 = lutador2.escolherAcao();
 		
+		}
 	}
-
 }
