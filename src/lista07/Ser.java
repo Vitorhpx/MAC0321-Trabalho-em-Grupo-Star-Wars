@@ -74,5 +74,10 @@ public class Ser {
 	public void setHabilidades(List<Habilidade> habilidades) {
 		this.habilidades = habilidades;
 	}
+	public Habilidade escolherAcao() {
+		Habilidade habilidade = new Habilidade();
+		return habilidade;
+		
+	}
 	
 }
