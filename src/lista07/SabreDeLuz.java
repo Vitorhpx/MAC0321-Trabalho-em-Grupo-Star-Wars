@@ -1,14 +1,14 @@
 package lista07;
 
 public class SabreDeLuz {
-	private UsuarioDaForça dono;
+	private UsuarioDaForca dono;
 	private String cristal;
 	private String corLamina;
 	private String tipoPunho;
-	public UsuarioDaForça getDono() {
+	public UsuarioDaForca getDono() {
 		return dono;
 	}
-	public void setDono(UsuarioDaForça dono) {
+	public void setDono(UsuarioDaForca dono) {
 		this.dono = dono;
 	}
 	public String getCristal() {

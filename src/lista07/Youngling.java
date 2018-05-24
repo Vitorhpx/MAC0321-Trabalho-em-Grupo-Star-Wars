@@ -2,7 +2,7 @@ package lista07;
 
 public class Youngling extends Jedi{
 	private Mestre mestre;
-	private Clã clã;
+	private Cla cla;
 	private boolean fezColheitaCristais;
 	public Mestre getMestre() {
 		return mestre;
@@ -10,11 +10,11 @@ public class Youngling extends Jedi{
 	public void setMestre(Mestre mestre) {
 		this.mestre = mestre;
 	}
-	public Clã getClã() {
-		return clã;
+	public Cla getCla() {
+		return cla;
 	}
-	public void setClã(Clã clã) {
-		this.clã = clã;
+	public void setCla(Cla cla) {
+		this.cla = cla;
 	}
 	public boolean isFezColheitaCristais() {
 		return fezColheitaCristais;

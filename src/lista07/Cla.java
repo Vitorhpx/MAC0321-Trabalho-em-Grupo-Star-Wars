@@ -3,7 +3,7 @@ package lista07;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Clã {
+public class Cla {
 	private String nome;
 	private Mestre treinador;
 	private List<Youngling> membros = new ArrayList<Youngling>();

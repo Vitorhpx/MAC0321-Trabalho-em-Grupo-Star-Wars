@@ -7,11 +7,11 @@ public class Ser {
 	private String nome;
 	private String especie;
 	private String sexo;
-	private String anoNascimento; //datas estarão em String pois em Star Wars são dadas em XX ABY ou YY DBY
+	private String anoNascimento; //datas estarao em String pois em Star Wars sao dadas em XX ABY ou YY DBY
 	private Planeta planetaNatal;
 	private int midi_chlorians;
 	private double vida;
-	private double dominioForça;
+	private double dominioForca;
 	private double dominioSabre;
 	private List<Habilidade> habilidades = new ArrayList<Habilidade>();
 	public String getNome() {
@@ -56,11 +56,11 @@ public class Ser {
 	public void setVida(double vida) {
 		this.vida = vida;
 	}
-	public double getDominioForça() {
-		return dominioForça;
+	public double getDominioForca() {
+		return dominioForca;
 	}
-	public void setDominioForça(double dominioForça) {
-		this.dominioForça = dominioForça;
+	public void setDominioForca(double dominioForca) {
+		this.dominioForca = dominioForca;
 	}
 	public double getDominioSabre() {
 		return dominioSabre;

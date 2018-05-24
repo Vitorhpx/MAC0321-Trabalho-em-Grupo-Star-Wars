@@ -1,6 +1,6 @@
 package lista07;
 
-public class Sith extends UsuarioDaForça{
+public class Sith extends UsuarioDaForca{
 	private String nomeSith;
 
 	public String getNomeSith() {

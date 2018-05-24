@@ -1,20 +1,20 @@
 package lista07;
 
 public class Lorde extends Sith{
-	private Aprendiz aprendiz; //não é lista pois há a primeira e única realidade dos Sith, só podem
+	private Aprendiz aprendiz; //nï¿½o ï¿½ lista pois hï¿½ a primeira e ï¿½nica realidade dos Sith, sï¿½ podem
 								//haver dois em um determinado momento: um mestre e um aprendiz
-	private int campoDeVisão;
+	private int campoDeVisao;
 	public Aprendiz getAprendiz() {
 		return aprendiz;
 	}
 	public void setAprendiz(Aprendiz aprendiz) {
 		this.aprendiz = aprendiz;
 	}
-	public int getCampoDeVisão() {
-		return campoDeVisão;
+	public int getCampoDeVisao() {
+		return campoDeVisao;
 	}
-	public void setCampoDeVisão(int campoDeVisão) {
-		this.campoDeVisão = campoDeVisão;
+	public void setCampoDeVisao(int campoDeVisao) {
+		this.campoDeVisao = campoDeVisao;
 	}
 
 }
