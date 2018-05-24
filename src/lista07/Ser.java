@@ -12,8 +12,9 @@ public class Ser {
 	private int midi_chlorians;
 	private double vida;
 	private double dominioForca;
-	private double dominioSabre;
+	private double dominioSabre;	
 	private List<Habilidade> habilidades = new ArrayList<Habilidade>();
+	
 	public String getNome() {
 		return nome;
 	}

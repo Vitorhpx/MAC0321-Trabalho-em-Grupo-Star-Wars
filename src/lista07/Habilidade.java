@@ -4,6 +4,10 @@ public class Habilidade {
 	private String nome;
 	private String alinhamento;
 	private String tipo;
+	private int prioridade;
+	private double dano;
+	
+	
 	public String getNome() {
 		return nome;
 	}
@@ -28,7 +32,12 @@ public class Habilidade {
 	public void setDano(double dano) {
 		this.dano = dano;
 	}
-	private double dano;
+	public int getPrioridade() {
+		return prioridade;
+	}
+	public void setPrioridade(int prioridade) {
+		this.prioridade = prioridade;
+	}
 	
 
 }
