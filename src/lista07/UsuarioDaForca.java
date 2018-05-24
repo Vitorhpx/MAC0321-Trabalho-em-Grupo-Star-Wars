@@ -3,7 +3,7 @@ package lista07;
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class UsuarioDaForça extends Ser{
+public abstract class UsuarioDaForca extends Ser{
 	
 	private double percentualAlinhamento; //representa raiva para Siths e paz interna para Jedis
 	private List<Poder> poderes = new ArrayList<Poder>();
@@ -14,13 +14,13 @@ public abstract class UsuarioDaForça extends Ser{
 	public void setPercentualAlinhamento(double percentualAlinhamento) {
 		this.percentualAlinhamento = percentualAlinhamento;
 	}
-	public ArrayList<Poder> getPoderes() {
+	public List<Poder> getPoderes() {
 		return poderes;
 	}
 	public void setPoderes(ArrayList<Poder> poderes) {
 		this.poderes = poderes;
 	}
-	public ArrayList<SabreDeLuz> getSabres() {
+	public List<SabreDeLuz> getSabres() {
 		return sabres;
 	}
 	public void setSabres(ArrayList<SabreDeLuz> sabres) {
