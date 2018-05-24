@@ -7,6 +7,15 @@ public class Habilidade {
 	private int prioridade;
 	private double dano;
 	
+	Habilidade(){
+	}
+	
+	Habilidade(String tipo, String nome, double dano, int prioridade){
+		this.tipo = tipo;
+		this.nome = nome;
+		this.dano = dano;
+		this.prioridade = prioridade;
+	}
 	
 	public String getNome() {
 		return nome;
@@ -37,6 +46,10 @@ public class Habilidade {
 	}
 	public void setPrioridade(int prioridade) {
 		this.prioridade = prioridade;
+	}
+	public void executar(Ser usuario, Ser alvo) {
+		alvo.setVida(alvo.getVida() - getDano());
+		System.out.println(usuario.getNome() + " usou " + getNome());	
 	}
 	
 

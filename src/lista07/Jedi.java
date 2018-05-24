@@ -3,6 +3,7 @@ package lista07;
 
 public class Jedi extends UsuarioDaForca{
 	private String corCapuz;
+	
 
 	public String getCorCapuz() {
 		return corCapuz;

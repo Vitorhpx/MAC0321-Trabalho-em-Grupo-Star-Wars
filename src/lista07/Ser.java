@@ -2,6 +2,7 @@ package lista07;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 public class Ser {
 	private String nome;
@@ -14,6 +15,7 @@ public class Ser {
 	private double dominioForca;
 	private double dominioSabre;	
 	private List<Habilidade> habilidades = new ArrayList<Habilidade>();
+	private Random randomGenerator = new Random();
 	
 	public String getNome() {
 		return nome;
@@ -75,10 +77,17 @@ public class Ser {
 	public void setHabilidades(List<Habilidade> habilidades) {
 		this.habilidades = habilidades;
 	}
+	public void addHabilidade(Habilidade habilidade) {
+		this.habilidades.add(habilidade);
+	}
+	
 	public Habilidade escolherAcao() {
-		Habilidade habilidade = new Habilidade();
-		return habilidade;
-		
+		if(randomGenerator.nextInt(4) > 0) {
+			return this.habilidades.get(randomGenerator.nextInt(this.habilidades.size()));
+		}
+		else {
+			return new Habilidade("esquiva","esquiva",0,0);
+		}
 	}
 	
 }
