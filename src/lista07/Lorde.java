@@ -6,10 +6,10 @@ public class Lorde extends Sith{
 	private int campoDeVisao;
 	
 	Lorde(String nome, double vida) {
-		this.addHabilidade(new Habilidade("sabre","rodopio",300,3));
-		this.addHabilidade(new Habilidade("sabre","esmaga",150,1));
-		this.addHabilidade(new Habilidade("forca","raio",200,2));
-		this.addHabilidade(new Habilidade("forca","enforca",250,3));
+		this.addHabilidade(new Habilidade("sabre","Mou kei (desmembramento múltiplo)",300,3));
+		this.addHabilidade(new Habilidade("sabre","Sai cha (decaptação)",150,1));
+		this.addHabilidade(new Habilidade("forca","Relâmpagos da Força",200,2));
+		this.addHabilidade(new Habilidade("forca","Asfixia da Força",250,3));
 		this.setNome(nome);
 		this.setVida(vida);
 	}
