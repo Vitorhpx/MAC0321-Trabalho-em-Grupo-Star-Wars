@@ -9,6 +9,10 @@ public class Academia {
 	private String ordem; //Jedi ou Sith
 	private List<Ser> alunos = new ArrayList<Ser>();
 	private Conselho conselho;
+
+	public String teste() {
+		return;
+	}
 	
 	public String getNome() {
 		return nome;
@@ -40,6 +44,6 @@ public class Academia {
 	public void setConselho(Conselho conselho) {
 		this.conselho = conselho;
 	}
-	
+
 
 }
